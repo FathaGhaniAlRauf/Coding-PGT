@@ -1,1 +1,385 @@
-tes github
+1.ping
+    C:\Users\ghani>ping 8.8.8.8
+
+    Pinging 8.8.8.8 with 32 bytes of data:
+    Reply from 8.8.8.8: bytes=32 time=21ms TTL=117
+    Reply from 8.8.8.8: bytes=32 time=19ms TTL=117
+    Reply from 8.8.8.8: bytes=32 time=17ms TTL=117
+    Reply from 8.8.8.8: bytes=32 time=21ms TTL=117
+
+    Ping statistics for 8.8.8.8:
+        Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+    Approximate round trip times in milli-seconds:
+        Minimum = 17ms, Maximum = 21ms, Average = 19ms
+
+
+
+2.whoami
+    C:\Users\ghani>whoami
+    raup\ghani
+
+
+
+3.ipconfig
+    C:\Users\ghani>ipconfig
+
+    Windows IP Configuration
+
+
+    Ethernet adapter Ethernet:
+
+        Media State . . . . . . . . . . . : Media disconnected
+        Connection-specific DNS Suffix  . :
+
+    Wireless LAN adapter Local Area Connection* 1:
+
+        Media State . . . . . . . . . . . : Media disconnected
+        Connection-specific DNS Suffix  . :
+
+    Wireless LAN adapter Local Area Connection* 2:
+
+        Media State . . . . . . . . . . . : Media disconnected
+        Connection-specific DNS Suffix  . :
+
+    Wireless LAN adapter Wi-Fi:
+
+        Connection-specific DNS Suffix  . :
+        Link-local IPv6 Address . . . . . : fe80::bd4b:63d:a3d:7db2%12
+        IPv4 Address. . . . . . . . . . . : 192.168.1.2
+        Subnet Mask . . . . . . . . . . . : 255.255.255.0
+        Default Gateway . . . . . . . . . : fe80::1%12
+                                       192.168.1.1
+
+
+
+4.hostname
+    C:\Users\ghani>hostname
+    RAUP
+
+
+
+5.getmac
+    C:\Users\ghani>getmac
+
+    Physical Address    Transport Name
+    =================== ==========================================================
+    C0-18-50-5B-3B-23   Media disconnected
+    74-4C-A1-74-23-8B   \Device\Tcpip_{97583742-2374-4999-94CC-B136FA9E3187}
+
+
+
+6.date
+    C:\Users\ghani>date
+    The current date is: 12/08/2022
+    Enter the new date: (dd-mm-yy)
+
+
+
+7.time
+    C:\Users\ghani>date
+    The current date is: 12/08/2022
+    Enter the new date: (dd-mm-yy)
+
+
+
+8.cd
+    C:\Users\ghani>cd desktop
+
+    C:\Users\ghani\Desktop>
+
+
+
+9.dir
+    C:\Users\ghani\Desktop>dir
+    Volume in drive C is Acer
+    Volume Serial Number is 5E1B-68FE
+
+    Directory of C:\Users\ghani\Desktop
+
+    12/08/2022  10:56    <DIR>          .
+    12/08/2022  15:31    <DIR>          ..
+    05/08/2022  06:52             1.092 Cisco Packet Tracer.lnk
+    12/08/2022  07:25    <DIR>          Coding-PGT
+    05/08/2022  07:26             1.086 Internet Download Manager.lnk
+    10/08/2022  09:58             1.888 Spotify.lnk
+    11/08/2022  22:00    <DIR>          TUGAS due 14 Agustus - 23.59
+    12/08/2022  11:15             8.386 wawasan.txt
+                4 File(s)         12.452 bytes
+                4 Dir(s)  446.027.153.408 bytes free
+
+
+
+10.compact
+    C:\Users\ghani\Desktop>compact
+
+    Listing C:\Users\ghani\Desktop\
+    New files added to this directory will not be compressed.
+
+        1092 :      1092 = 1,0 to 1   Cisco Packet Tracer.lnk
+            0 :         0 = 1,0 to 1   Coding-PGT
+        1086 :      1086 = 1,0 to 1   Internet Download Manager.lnk
+        1888 :      1888 = 1,0 to 1   Spotify.lnk
+            0 :         0 = 1,0 to 1   TUGAS due 14 Agustus - 23.59
+        8386 :      8386 = 1,0 to 1   wawasan.txt
+
+    Of 7 files within 1 directories
+    0 are compressed and 7 are not compressed.
+    12.734 total bytes of data are stored in 12.734 bytes.
+    The compression ratio is 1,0 to 1.
+
+
+
+11.attrib
+    C:\Users\ghani\Desktop>attrib
+    A                    C:\Users\ghani\Desktop\Cisco Packet Tracer.lnk
+    A  SH                C:\Users\ghani\Desktop\desktop.ini
+    A                    C:\Users\ghani\Desktop\Internet Download Manager.lnk
+    A                    C:\Users\ghani\Desktop\Spotify.lnk
+    A                    C:\Users\ghani\Desktop\wawasan.txt
+
+
+
+12.ver
+    C:\Users\ghani>ver
+
+    Microsoft Windows [Version 10.0.22000.856]
+
+
+
+13.mkdir
+    C:\Users\ghani>mkdir foldername
+
+
+
+14.nslookup
+    C:\Users\ghani>nslookup 8.8.8.8
+    Server:  UnKnown
+    Address:  fe80::1
+
+    Name:    dns.google
+    Address:  8.8.8.8
+
+
+
+15.netstat
+    C:\Users\ghani>netstat
+
+    Active Connections
+
+    Proto  Local Address          Foreign Address        State
+    TCP    127.0.0.1:49670        RAUP:49684             ESTABLISHED
+    TCP    127.0.0.1:49684        RAUP:49670             ESTABLISHED
+    TCP    192.168.1.2:49753      sa-in-f188:5228        ESTABLISHED
+    TCP    192.168.1.2:49841      13.68.168.63:https     ESTABLISHED
+
+
+
+16.cls
+    C:\Users\ghani>cls 
+
+
+
+17.tasklist
+    C:\Users\ghani>tasklist
+
+    Image Name                     PID Session Name        Session#    Mem Usage
+    ========================= ======== ================ =========== ============
+    System Idle Process              0 Services                   0          8 K
+    System                           4 Services                   0      1.284 K
+    Secure System                  104 Services                   0     29.260 K
+    Registry                       168 Services                   0     35.256 K
+    smss.exe                       492 Services                   0      1.160 K
+    csrss.exe                      864 Services                   0      4.680 K
+    wininit.exe                    984 Services                   0      5.760 K
+    csrss.exe                      992 Console                    1      5.932 K
+    services.exe                   508 Services                   0      8.124 K
+    winlogon.exe                   848 Console                    1     11.292 K
+    LsaIso.exe                    1056 Services                   0      3.036 K
+    lsass.exe                     1064 Services                   0     19.532 K
+
+
+
+18.tracert
+    C:\Users\ghani>tracert google.com
+
+    Tracing route to forcesafesearch.google.com [216.239.38.120]
+    over a maximum of 30 hops:
+
+    1     *        *        *     Request timed out.
+    2     5 ms     4 ms     5 ms  10.192.0.1 [10.192.0.1]
+    3     *        *        *     Request timed out.
+    4    18 ms    17 ms    17 ms  202.51.193.37
+    5    23 ms    22 ms    17 ms  72.14.212.28
+    6    21 ms    18 ms    18 ms  108.170.254.225
+    7    19 ms    18 ms    18 ms  72.14.232.107
+    8    20 ms    17 ms    18 ms  any-in-2678.1e100.net [216.239.38.120]
+
+    Trace complete.
+
+
+
+19.defrag
+    C:\Users\ghani>defrag
+
+    Defrag <Volumes> <Operations> [<Options>]
+
+    Volumes:
+    /C | /AllVolumes      On each volume run only the preferred operations from
+                            the given list of operations.
+    /E | /VolumesExcept <volume paths>
+                            Perform all the given operations on each volume except.
+                            those specified. If the exception list is empty, this
+                            behaves as /AllVolumes.
+    volume paths          Specifies the drive letter followed by a colon, mount point
+                            or volume name. More than one volume can be specified.  Run
+                            all the given operations on each specified volume..
+
+    Operations:
+    /A | /Analyze         Perform analysis.
+    /B | /BootOptimize    Perform boot optimization to increase boot performance.
+    /D | /Defrag          Perform traditional defrag (this is the default). On a tiered
+                            volume, traditional defrag is performed only on the Capacity
+                            tier.
+    /G | /TierOptimize    On tiered volumes, optimize files to reside on the appropriate
+                            storage tier.
+    /K | /SlabConsolidate On thinly provisioned volumes, perform slab consolidation to
+                            increase slab usage efficiency.
+    /L | /Retrim          On thinly provisioned volumes, perform retrim to release free
+                            slabs. On SSDs perform retrim to improve write performance.
+    /O | /Optimize        Perform the proper optimization for each media type.
+    /T | /TrackProgress   Track progress of a running operation for a given volume. An
+                            instance can show progress only for a single volume. To see
+                            progress for another volume launch another instance.
+    /U | /PrintProgress   Print the progress of the operation on the screen.
+    /V | /Verbose         Print verbose output containing the fragmentation statistics.
+    /X | /FreespaceConsolidate
+                            Perform free space consolidation, moves free space towards
+                            the end of the volume (even on thin provisioned volumes). On
+                            tiered volumes consolidation is performed only on the Capacity
+                            tier.
+
+    Options:
+    /H | /NormalPriority  Run the operation at normal priority (default is low).
+    /I | /MaxRuntime n    Available only with TierOptimize. Tier optimization would
+                            run for at most n seconds on each volume.
+        /LayoutFile <file path>
+                            Available only with BootOptimize. This file contains the list
+                            of files to be optimized.  The default location is
+                            %windir%\Prefetch\layout.ini.
+    /M | /MultiThread [n] Run the operation on each volume in parallel in the background.
+                            For TierOptimize, at most n threads optimize the storage tiers
+                            in parallel. Default value of n is 8. All other optimizations
+                            ignore n.
+        /OnlyPreferred   When volumes are specified explicitly, defrag performs all
+                            the given operations on each specified volume.  This switch
+                            lets defrag run only the preferred operations, from the
+                            given list of operations, on each specified volume.
+
+    Examples:
+    Defrag C: /U /V
+    Defrag C: D: /TierOptimize /MultiThread
+    Defrag C:\mountpoint /Analyze /U
+    Defrag /C /H /V
+
+
+
+20.help
+    C:\Users\ghani>help
+    For more information on a specific command, type HELP command-name
+    ASSOC          Displays or modifies file extension associations.
+    ATTRIB         Displays or changes file attributes.
+    BREAK          Sets or clears extended CTRL+C checking.
+    BCDEDIT        Sets properties in boot database to control boot loading.
+    CACLS          Displays or modifies access control lists (ACLs) of files.
+    CALL           Calls one batch program from another.
+    CD             Displays the name of or changes the current directory.
+    CHCP           Displays or sets the active code page number.
+    CHDIR          Displays the name of or changes the current directory.
+    CHKDSK         Checks a disk and displays a status report.
+    CHKNTFS        Displays or modifies the checking of disk at boot time.
+    CLS            Clears the screen.
+    CMD            Starts a new instance of the Windows command interpreter.
+    COLOR          Sets the default console foreground and background colors.
+    COMP           Compares the contents of two files or sets of files.
+    COMPACT        Displays or alters the compression of files on NTFS partitions.
+    CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+                current drive.
+    COPY           Copies one or more files to another location.
+    DATE           Displays or sets the date.
+    DEL            Deletes one or more files.
+    DIR            Displays a list of files and subdirectories in a directory.
+    DISKPART       Displays or configures Disk Partition properties.
+    DOSKEY         Edits command lines, recalls Windows commands, and
+                creates macros.
+    DRIVERQUERY    Displays current device driver status and properties.
+    ECHO           Displays messages, or turns command echoing on or off.
+    ENDLOCAL       Ends localization of environment changes in a batch file.
+    ERASE          Deletes one or more files.
+    EXIT           Quits the CMD.EXE program (command interpreter).
+    FC             Compares two files or sets of files, and displays the
+                differences between them.
+    FIND           Searches for a text string in a file or files.
+    FINDSTR        Searches for strings in files.
+    FOR            Runs a specified command for each file in a set of files.
+    FORMAT         Formats a disk for use with Windows.
+    FSUTIL         Displays or configures the file system properties.
+    FTYPE          Displays or modifies file types used in file extension
+                associations.
+    GOTO           Directs the Windows command interpreter to a labeled line in
+                a batch program.
+    GPRESULT       Displays Group Policy information for machine or user.
+    GRAFTABL       Enables Windows to display an extended character set in
+                graphics mode.
+    HELP           Provides Help information for Windows commands.
+    ICACLS         Display, modify, backup, or restore ACLs for files and
+                directories.
+    IF             Performs conditional processing in batch programs.
+    LABEL          Creates, changes, or deletes the volume label of a disk.
+    MD             Creates a directory.
+    MKDIR          Creates a directory.
+    MKLINK         Creates Symbolic Links and Hard Links
+    MODE           Configures a system device.
+    MORE           Displays output one screen at a time.
+    MOVE           Moves one or more files from one directory to another
+                directory.
+    OPENFILES      Displays files opened by remote users for a file share.
+    PATH           Displays or sets a search path for executable files.
+    PAUSE          Suspends processing of a batch file and displays a message.
+    POPD           Restores the previous value of the current directory saved by
+                PUSHD.
+    PRINT          Prints a text file.
+    PROMPT         Changes the Windows command prompt.
+    PUSHD          Saves the current directory then changes it.
+    RD             Removes a directory.
+    RECOVER        Recovers readable information from a bad or defective disk.
+    REM            Records comments (remarks) in batch files or CONFIG.SYS.
+    REN            Renames a file or files.
+    RENAME         Renames a file or files.
+    REPLACE        Replaces files.
+    RMDIR          Removes a directory.
+    ROBOCOPY       Advanced utility to copy files and directory trees
+    SET            Displays, sets, or removes Windows environment variables.
+    SETLOCAL       Begins localization of environment changes in a batch file.
+    SC             Displays or configures services (background processes).
+    SCHTASKS       Schedules commands and programs to run on a computer.
+    SHIFT          Shifts the position of replaceable parameters in batch files.
+    SHUTDOWN       Allows proper local or remote shutdown of machine.
+    SORT           Sorts input.
+    START          Starts a separate window to run a specified program or command.
+    SUBST          Associates a path with a drive letter.
+    SYSTEMINFO     Displays machine specific properties and configuration.
+    TASKLIST       Displays all currently running tasks including services.
+    TASKKILL       Kill or stop a running process or application.
+    TIME           Displays or sets the system time.
+    TITLE          Sets the window title for a CMD.EXE session.
+    TREE           Graphically displays the directory structure of a drive or
+                path.
+    TYPE           Displays the contents of a text file.
+    VER            Displays the Windows version.
+    VERIFY         Tells Windows whether to verify that your files are written
+                correctly to a disk.
+    VOL            Displays a disk volume label and serial number.
+    XCOPY          Copies files and directory trees.
+    WMIC           Displays WMI information inside interactive command shell.
+
+    For more information on tools see the command-line reference in the online help.
