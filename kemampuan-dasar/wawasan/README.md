@@ -25,15 +25,15 @@ Informatics (Informatika) adalah cabang dari teknik informasi. Ini melibatkan pr
 
 Pengembangan perangkat lunak adalah proses menyusun, menentukan, merancang, memprogram, mendokumentasikan, menguji, dan memperbaiki bug yang terlibat dalam membuat dan memelihara aplikasi, kerangka kerja, atau komponen software lainnya. Software Development merupakan aktivitas yang kompleks dan memerlukan berbagai macam roles / peran.
 
-    Kegiatan Software Development
+Kegiatan Software Development
 
-    A. Identifikasi kebutuhan
+A. Identifikasi kebutuhan
 
-    Sumber ide untuk produk perangkat lunak sangat banyak. Ide-ide ini dapat berasal dari riset pasar termasuk demografi calon pelanggan baru, pelanggan yang sudah ada, prospek penjualan yang menolak produk, staf pengembangan perangkat lunak internal lainnya, atau pihak ketiga yang kreatif. Ide untuk produk perangkat lunak biasanya dievaluasi terlebih dahulu oleh personel pemasaran untuk kelayakan ekonomi, agar sesuai dengan saluran distribusi yang ada, untuk kemungkinan efek pada lini produk yang ada, fitur yang diperlukan, dan sesuai dengan tujuan pemasaran perusahaan. Dalam buku «Debat Perangkat Lunak Hebat», Alan M. Namun, perencanaan produk perangkat lunak sangat penting untuk keberhasilan pengembangan dan mutlak membutuhkan pengetahuan tentang berbagai disiplin ilmu.
+Sumber ide untuk produk perangkat lunak sangat banyak. Ide-ide ini dapat berasal dari riset pasar termasuk demografi calon pelanggan baru, pelanggan yang sudah ada, prospek penjualan yang menolak produk, staf pengembangan perangkat lunak internal lainnya, atau pihak ketiga yang kreatif. Ide untuk produk perangkat lunak biasanya dievaluasi terlebih dahulu oleh personel pemasaran untuk kelayakan ekonomi, agar sesuai dengan saluran distribusi yang ada, untuk kemungkinan efek pada lini produk yang ada, fitur yang diperlukan, dan sesuai dengan tujuan pemasaran perusahaan. Dalam buku «Debat Perangkat Lunak Hebat», Alan M. Namun, perencanaan produk perangkat lunak sangat penting untuk keberhasilan pengembangan dan mutlak membutuhkan pengetahuan tentang berbagai disiplin ilmu.
 
-    B. Proses perencanaan
+B. Proses perencanaan
 
-    Pelanggan biasanya memiliki gagasan abstrak tentang apa yang mereka inginkan sebagai hasil akhir tetapi tidak tahu perangkat lunak apa yang harus dilakukan. Insinyur perangkat lunak yang terampil dan berpengalaman mengenali persyaratan yang tidak lengkap, ambigu, atau bahkan bertentangan pada saat ini. Sering mendemonstrasikan kode langsung dapat membantu mengurangi risiko bahwa persyaratan tidak benar. « Volatilitas persyaratan menantang karena berdampak pada upaya pengembangan di masa depan atau yang sudah berjalan»
+Pelanggan biasanya memiliki gagasan abstrak tentang apa yang mereka inginkan sebagai hasil akhir tetapi tidak tahu perangkat lunak apa yang harus dilakukan. Insinyur perangkat lunak yang terampil dan berpengalaman mengenali persyaratan yang tidak lengkap, ambigu, atau bahkan bertentangan pada saat ini. Sering mendemonstrasikan kode langsung dapat membantu mengurangi risiko bahwa persyaratan tidak benar. « Volatilitas persyaratan menantang karena berdampak pada upaya pengembangan di masa depan atau yang sudah berjalan»
 
 Penerapan dari engineering ke dalam aktivitas software development ini disebut dengan Software Engineering.
 Software Engineering adalah pendekatan rekayasa sistematis untuk pengembangan software (Software Development).
