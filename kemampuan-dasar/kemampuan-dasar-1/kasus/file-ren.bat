@@ -16,7 +16,7 @@ if %choice% == y (
     set /p input="Masukan nama file baru : " 
     
     echo.
-    GOTO filebaru
+    GOTO rename
 
 
 ) else if %choice% == n (
@@ -29,7 +29,7 @@ if %choice% == y (
     GOTO choice
 )
 
-:filebaru
+:rename
 cd C:\Users\ghani\Desktop\Coding-PGT\kemampuan-dasar\kemampuan-dasar-1\kasus
 ren "C:\Users\ghani\Desktop\Coding-PGT\kemampuan-dasar\kemampuan-dasar-1\kasus\*.java" "%input%.java"
 echo.
