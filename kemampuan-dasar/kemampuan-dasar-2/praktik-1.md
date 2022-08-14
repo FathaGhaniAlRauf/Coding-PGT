@@ -55,7 +55,7 @@ Anda ingin berkolaborasi di Repo Github yang sama dengan rekan satu tim Anda. Ji
 ![img9](https://user-images.githubusercontent.com/111025932/184498354-170ab7a2-e681-4c59-b517-94c47e1a292f.png)
 
 ```
-$ git clone https://github.com/fauzanantony/github_guide.git
+$ git clone https://github.com/FathaGhaniAlRauf/github_guide.git
 $cd github_guide/
 ```
  
