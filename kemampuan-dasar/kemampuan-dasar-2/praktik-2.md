@@ -119,6 +119,8 @@ Jika Anda adalah pemilik repositori asli, ada dua cara untuk menggabungkan permi
 ![github-team-merge](https://user-images.githubusercontent.com/111033936/184523290-1392b4de-a8c3-4159-aa5d-b1eb724ccf4a.png)
 
 2. **Penggabungan di mesin lokal kita** : Di ​​lain waktu, mungkin ada konflik penggabungan, dan setelah mengklik tombol "info", Github akan memiliki instruksi yang jelas tentang bagaimana kami dapat menggabungkan cabang di mesin lokal kami dengan menarik perubahan dari cabang kontributor:
+
+
 ![github-team-merge-conflict](https://user-images.githubusercontent.com/111033936/184523293-2352fd57-5e55-4278-ab21-f2d6cdf55321.png)
 
 ## Selesai !!
